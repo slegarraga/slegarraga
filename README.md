@@ -1,8 +1,12 @@
 # Sebastian Legarraga
 
-I work on OpenAPI tooling, LLM provider portability, and agent infrastructure.
+I maintain MIT, zero-dependency TypeScript packages for OpenAI-compatible agent/provider portability.
+
+Public OSS contact: [sebastian@0a.cl](mailto:sebastian@0a.cl)
 
 ## Maintained OSS
+
+Current flagship: [llm-messages](https://github.com/slegarraga/llm-messages), a typed conversion layer for moving conversations, tool calls, and multimodal message parts between OpenAI, Anthropic, and Gemini shapes.
 
 | Project | What it does | Package |
 | --- | --- | --- |
@@ -13,6 +17,13 @@ I work on OpenAPI tooling, LLM provider portability, and agent infrastructure.
 | [json-from-llm](https://github.com/slegarraga/json-from-llm) | Extract JSON from LLM responses wrapped in reasoning, markdown or prose. | [![npm](https://img.shields.io/npm/v/json-from-llm.svg)](https://www.npmjs.com/package/json-from-llm) [![downloads](https://img.shields.io/npm/dm/json-from-llm.svg)](https://www.npmjs.com/package/json-from-llm) |
 
 All packages are MIT licensed, zero runtime dependencies, typed, tested, and published with CI/release automation.
+
+## Public docs
+
+- [OpenAI-compatible agent portability](https://github.com/slegarraga/llm-portability-demo/blob/main/docs/openai-compatible-agent-portability.md)
+- [Provider portability map](https://github.com/slegarraga/llm-portability-demo/blob/main/docs/provider-portability.md)
+- [llm-messages roadmap](https://github.com/slegarraga/llm-messages/blob/main/ROADMAP.md)
+- [Conformance fixture plan](https://github.com/slegarraga/llm-messages/blob/main/docs/conformance-fixtures.md)
 
 ## Demo
 
@@ -25,14 +36,14 @@ All packages are MIT licensed, zero runtime dependencies, typed, tested, and pub
 
 ## External OSS contributions
 
-GitHub search currently shows 160+ merged pull requests authored by this account, plus active work in public infrastructure projects.
+Public GitHub search currently shows 37 merged pull requests authored by this account, plus the maintained package suite above.
 
 Selected recent work:
 
 - [stoplightio/spectral](https://github.com/stoplightio/spectral): OpenAPI / AsyncAPI linting fixes and CLI/formatter improvements.
-- [openai/openai-agents-js](https://github.com/openai/openai-agents-js): realtime voice and extension fixes.
-- [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python): tool-runner and documentation fixes.
-- [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin): accessibility-focused modal behavior.
+- [reactjs/es.react.dev](https://github.com/reactjs/es.react.dev): React reference translation work.
+- [ghostfolio/ghostfolio](https://github.com/ghostfolio/ghostfolio): Angular lifecycle cleanup.
+- [bfirsh/jsnes](https://github.com/bfirsh/jsnes): JavaScript emulator maintenance fixes.
 
 ## How I maintain
 
@@ -40,4 +51,3 @@ Selected recent work:
 - Prefer reproducible cases, fixtures, and CI-backed fixes.
 - Document provider edge cases instead of hiding them behind broad abstractions.
 - Treat security and compatibility reports as maintainer work, not side tasks.
-
