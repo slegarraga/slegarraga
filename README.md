@@ -5,6 +5,9 @@ LLM agents across OpenAI, Anthropic, Gemini, and OpenAI-compatible APIs.
 
 Public OSS contact: [sebastian@0a.cl](mailto:sebastian@0a.cl)
 
+Current focus: deterministic OpenAI Responses conformance across streaming,
+completed-message normalization, and portable tool-call histories.
+
 ## Maintained OSS
 
 Primary project: [llm-messages](https://github.com/slegarraga/llm-messages), a
